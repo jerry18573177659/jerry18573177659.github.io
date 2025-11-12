@@ -25,17 +25,29 @@
     nav a:hover {
       text-decoration: underline;
     }
-    .content {
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h1, h2 {
       text-align: center;
-      margin-top: 80px;
+      font-weight: bold;
+      color: #222;
     }
     h1 {
-      font-size: 2em;
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-top: 60px;
+      margin-bottom: 20px;
     }
     p {
-      max-width: 600px;
-      margin: 20px auto;
-      line-height: 1.6;
+      line-height: 1.7;
+      text-align: justify;
+    }
+    .highlight {
+      font-weight: bold;
     }
   </style>
 </head>
@@ -47,13 +59,27 @@
     <a href="files/Copy of CV-Weining Wang-20251111.pdf" target="_blank">CV</a>
   </nav>
 
-  <!-- 主体内容 -->
-  <div class="content">
+  <div class="container">
+    <!-- About Me -->
     <h1>About Me</h1>
+    <p><span class="highlight">Name:</span> Weining Wang</p>
     <p>
-      Hello! I am Weining Wang, an aspiring researcher interested in computer vision,
-      machine learning, and imaging science. I’m currently pursuing studies that combine
-      deep learning and signal processing techniques for image reconstruction and analysis.
+      I am currently a second-year master’s student in the <strong>Department of Computer Science and Engineering</strong> at 
+      <strong>Washington University in St. Louis (WashU)</strong>.
+    </p>
+    <p>
+      During my master’s study, I am a member of the <strong>Computational Imaging Group (CIG)</strong> led by 
+      <strong>Professor Ulugbek Kamilov</strong> and mentored by his Ph.D. student <strong>Shirin Shoushtari</strong>.
+    </p>
+    <p>
+      My research interests include <strong>computational imaging</strong>, <strong>medical imaging</strong>, 
+      <strong>inverse problems</strong>, and <strong>distribution shift</strong>.
+    </p>
+
+    <!-- News -->
+    <h2>News</h2>
+    <p>
+      Our paper titled <em>“Distribution Shift Estimation in Imaging Inverse Problems”</em> has been accepted by <strong>CAMSAP 2025</strong>.
     </p>
   </div>
 
